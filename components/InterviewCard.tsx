@@ -5,7 +5,7 @@ import DisplayTechIcons from './DisplayTechIcons';
 import { Button } from './ui/button';
 import Link from 'next/link';
 
-const InterviewCard = ({interviewId,
+const InterviewCard = ({id,
     userId,
     role,
     type,
@@ -64,8 +64,8 @@ const InterviewCard = ({interviewId,
                             <Link
                             href={
                                 feedback
-                                ? `/interview/${interviewId}/feedback`
-                                : `/interview/${interviewId}`
+                                ? `/interview/${id}/feedback`
+                                : `/interview/${id}`
                             }
                             >
                             {feedback ? "Check Feedback" : "View Interview"}
