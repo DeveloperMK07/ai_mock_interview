@@ -67,16 +67,12 @@ const Agent = ({userName, userId, type, interviewId, questions} : AgentProps) =>
     const handleGenerateFeedback = async (messages: SavedMessage[]) => {
       console.log("handleGenerateFeedback");
 
-      // const {success,id}={
-      //   success:true,
-      //   id: 'feedback-id'
-      // }
-      const { success,  feedbackId:id } = await createFeedback({
+      const { success, feedbackId: id } = await createFeedback({
         interviewId: interviewId!,
         userId: userId!,
         transcript: messages,
-        // feedbackId,
-      })
+        
+      });
 
       if (success && id) {
         router.push(`/interview/${interviewId}/feedback`);
@@ -85,6 +81,7 @@ const Agent = ({userName, userId, type, interviewId, questions} : AgentProps) =>
         router.push("/");
       }
     };
+
     useEffect(() =>{
       if (callStatus === CallStatus.FINISHED) {
         if (type === "generate") {
