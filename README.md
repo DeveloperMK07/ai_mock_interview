@@ -25,4 +25,15 @@ git clone https://github.com/your-username/guideu-ai.git
 cd guideu-ai
 npm install
 ```
-##🔑 Environment Variables
+## 🔑 Environment Variables
+
+```bash
+NEXT_PUBLIC_FIREBASE_API_KEY=your_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+VAPI_API_KEY=your_vapi_key
+GEMINI_API_KEY=your_gemini_key
+```
