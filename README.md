@@ -37,3 +37,40 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 VAPI_API_KEY=your_vapi_key
 GEMINI_API_KEY=your_gemini_key
 ```
+
+## 🧪 Run Locally
+
+```bash
+npm run dev
+```
+
+## 📦 Deployment
+```bash
+GuideU is deployed on Vercel.
+```
+
+## 👨‍💻 Contributing
+Contributions are welcome!
+
+Fork the repo
+
+- Create your feature branch: git checkout -b feature/awesome-feature
+
+- Commit your changes: git commit -m 'Add some awesome feature'
+
+- Push to the branch: git push origin feature/awesome-feature
+
+- Open a Pull Request
+
+## 🙌 Acknowledgements
+- Vapi AI
+
+- Google Gemini
+
+- Firebase
+
+- shadcn/ui
+
+- Vercel
+
+## Live Demo: https://mock-interview-ai-one.vercel.app/
