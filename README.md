@@ -24,3 +24,5 @@ GuideU is a modern AI-powered mock interview platform designed to help users pre
 git clone https://github.com/your-username/guideu-ai.git
 cd guideu-ai
 npm install
+```
+##🔑 Environment Variables
